@@ -1,0 +1,835 @@
+/* navbar */
+
+.navbar{
+  background-image: linear-gradient(to right,rgb(0, 0, 255),#ff00ff);
+  padding: 10px 0px;
+}
+
+.navbar-brand{
+  color: white !important;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26px;
+}
+
+.nav-link{
+  color:  white !important;
+  font-weight:600;
+  font-size: 18px;
+}
+
+.nav-link:hover{
+  color: aqua !important;
+}
+
+.nav-btns .btn{
+  background-color: rgb(0, 174, 255);
+  border: none;
+  font-weight:600;
+  font-size: 14px;
+  border-radius: 30px;
+  outline: none ;
+  border: 1px solid blue;
+}
+
+.nav-btns .btn:hover{
+  background-color: rgb(13, 238, 13);
+  border: 1px solid rgb(13, 238, 13);
+  
+}
+
+.navbar img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.fa-bars{
+  color: white;
+  font-size: 25px;
+}
+
+
+
+/* =====sign up===== */
+
+
+
+#signup-body{
+ background-image: url(../images/signup/signup-bg.webp);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-bottom: 80px;
+}
+#sign-up .row{
+  padding-top: 80px;
+}
+.column-1{
+  background-color: rgb(0, 89, 255);
+}
+.signup-c1-title{
+  color: white;
+  padding-top: 80px;
+}
+.signup-c1-info{
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+}
+.signup-c1-btn{
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+.signup-c1-btn-a{
+  color: white;
+  border: 1px solid rgb(52, 23, 109);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+.signup-c1-btn-a:hover{
+  color: white;
+  background-color:rgb(25, 216, 41);
+  text-decoration: none;
+}
+.column-2{
+  background-color: white;
+}
+.signup-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.signup-c2-title{
+  font-weight: bold;
+}
+.signup-input{
+  width: 300px;
+  padding-top: 20px;
+}
+.signup-input input{
+  width: 100%;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(180, 178, 175);
+}
+.signup-btn{
+  text-decoration: none;
+  background-color:rgb(0, 89, 255);
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+  font-weight: 500;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+.signup-btn:hover{
+  text-decoration: none;
+  background-color:rgb(25, 216, 41);
+  color: white;
+}
+#sign-up .fa-facebook-f{
+  background-color: blue;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 50px;
+}
+#sign-up .fa-google-plus-g{
+  background-color: orangered;
+  color: white;
+  padding: 5px 3px;
+  border-radius: 50px;
+}
+#sign-up .fa-linkedin-in{
+  background-color: rgb(7, 52, 78);
+  padding: 5px 6px;
+  color: white;
+  border-radius: 50px;
+}
+
+/* =====sign in===== */
+
+#signin-body{
+  background-image: url(../images/signin/bg-img.webp);
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-bottom: 70px;
+}
+#signin{
+  
+}
+#signin .row{
+  padding-top: 0px;
+}
+.signin-column-1{
+  background-color: white;
+}
+.signin-column1-title{
+  font-weight: bold;
+  font-size: 32px;
+}
+.signin-column1-info{
+  font-size: 18px;
+}
+.signin-column-2{
+  background-color: #006eff;
+}
+#signin .signup-icons .fa-facebook-f{
+  background-color: blue;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 50px;
+}
+#signin .signup-icons .fa-google-plus-g{
+  background-color: orangered;
+  color: white;
+  padding: 5px 3px;
+  border-radius: 50px;
+}
+#signin .signup-icons .fa-linkedin-in{
+  background-color: rgb(7, 52, 78);
+  padding: 5px 6px;
+  color: white;
+  border-radius: 50px;
+}
+.signin-column-1 .email-input input{
+  padding: 2px 20px;
+  outline: none;
+}
+.signin-column-1 .password-input input{
+  padding: 2px 20px;
+  outline: none;
+}
+#signin .signin-btn-a a{
+  text-decoration: none;
+  background-color:rgb(0, 89, 255);
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+  font-weight: 500;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+#signin .signin-btn-a a:hover{
+  text-decoration: none;
+  background-color:rgb(25, 216, 41);
+  color: white;
+}
+#signin .signin-column-2 .image{
+  width: 450px;
+  height: 200px;
+}
+#signin .signin-column-2 .image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.signin-column-2 .column2-title{
+  /* text-shadow: 0 0 20px #00fffb,0 0 40px #0081bc; */
+  color: white;
+  font-weight: bold;
+}
+.signin-column-2 .column2-info{
+  color: white;
+  font-size: 18px;
+}
+#signin .signin-column-2 .signin-btn a{
+  text-decoration: none;
+  background-color:rgb(0, 89, 255);
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+  font-weight: 500;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+.signin-column-2 .title{
+  color: rgb(43, 255, 0);
+  font-weight: bold;
+}
+.signin-column-2 .fa-twitter{
+  background-color: aqua;
+  padding: 5px 4px;
+  color: white;
+  border-radius: 50px;
+}
+.signin-column-2 .fa-instagram{
+  background-color: rgb(255, 0, 234);
+  padding:7px;
+  color: white;
+  border-radius: 50px;
+}
+
+/* =====All Search bars===== */
+
+#search-bar{
+
+}
+#search-bar .search{
+  width: 300px;
+  height: 90px;
+  justify-content: center;
+  display: flex;
+}
+#search-bar .search input{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid #00bfff;
+  padding: 2px 4px;
+  box-shadow: 0 0 5px 3px #00bfff;
+}
+#search-bar .search input:hover{
+  box-shadow: 0 0 5px 3px #f700ff;
+  border: 2px solid #f700ff;
+}
+#search-bar .search .fa-magnifying-glass:hover{
+color: #f700ff;
+}
+#search-bar .fa-magnifying-glass{
+  font-size: 30px;
+  color: #00bfff;
+  font-weight: bold;
+  text-shadow: 0 0 5px 3px #00bfff;
+  cursor: pointer;
+}
+#popular-tractors .card .card-body .price-btn a:hover{
+  background-color:white;
+  color: #006400;
+  text-decoration: none;
+  transition: 0.7s;
+}
+#popular-tractors .card .card-body .price-btn a:hover>i{
+  color:white;
+  background-color: #006400;
+  transition: 0.7s;
+}
+
+
+/* ======Tractors====== */
+#tractor-body{
+  background-color: white;
+}
+/* popular tractors */
+#popular-tractors{
+
+}
+#popular-tractors .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#popular-tractors .title img{
+  width: 70px;
+}
+#popular-tractors .card-title img{
+  width: 40px;
+}
+#popular-tractors .card-title{
+  color: #006eff;
+  font-weight: bold;
+}
+#popular-tractors .card .card-body h6{
+  font-size: 14px;
+}
+#popular-tractors .card{
+  transition: 0.6s;
+}
+#popular-tractors .card:hover{
+  box-shadow: 0px 0px 10px black,
+             0px 0px 10px black;
+  transition: 0.6s;
+}
+#popular-tractors .card .card-body .price-btn a{
+  background-color: #006400;
+  color: white;
+  padding: 3px 10px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 1px solid #006400;
+  transition: 0.7s;
+}
+#popular-tractors .card .card-body .price-btn a .fa-angle-right{
+  background-color: white;
+  color: #006400;
+  padding: 4px 6px;
+  border-radius: 50%;
+  transition: 0.7s;
+}
+#popular-tractors .card .card-body .price-btn a:hover{
+  background-color:white;
+  color: #006400;
+  text-decoration: none;
+  transition: 0.7s;
+}
+#popular-tractors .card .card-body .price-btn a:hover>i{
+  color:white;
+  background-color: #006400;
+  transition: 0.7s;
+}
+/* TRACTOR BRAND */
+
+#tractor-brand .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#tractor-brand .title img{
+  width: 70px;
+}
+#tractor-brand .b-img{
+  width: 180px;
+  height: 100px;
+  box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.356);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#tractor-brand .b-img img{
+  border-radius: 20px;
+}
+#tractor-brand .b-img:hover{
+  box-shadow: 0px 0px 10px black,
+             0px 0px 10px black;
+  transition: 0.6s;
+}
+#tractor-brand .b-img img{
+  width: 100%;
+  height: 100%;
+  justify-content:space-between;
+}
+
+
+/* LATEST TRACTORS */
+
+#latest-tractors{
+
+}
+#latest-tractors .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#latest-tractors .title img{
+  width: 70px;
+}
+#latest-tractors .card-title img{
+  width: 40px;
+}
+#latest-tractors .card-title{
+  color: #006eff;
+  font-weight: bold;
+}
+#latest-tractors .card .card-body h6{
+  font-size: 14px;
+}
+#latest-tractors .card{
+  transition: 0.6s;
+}
+#latest-tractors .card:hover{
+  box-shadow: 0px 0px 10px black,
+             0px 0px 10px black;
+  transition: 0.6s;
+}
+#latest-tractors .card .card-body .price-btn a{
+  background-color: #006400;
+  color: white;
+  padding: 3px 10px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 1px solid #006400;
+  transition: 0.7s;
+}
+#latest-tractors .card .card-body .price-btn a .fa-angle-right{
+  background-color: white;
+  color: #006400;
+  padding: 4px 6px;
+  border-radius: 50%;
+  transition: 0.7s;
+}
+#latest-tractors .card .card-body .price-btn a:hover{
+  background-color:white;
+  color: #006400;
+  text-decoration: none;
+  transition: 0.7s;
+}
+#latest-tractors .card .card-body .price-btn a:hover>i{
+  color:white;
+  background-color: #006400;
+  transition: 0.7s;
+}
+/* TRACTOR STATE */
+
+#tractor-state .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#tractor-state .title img{
+  width: 70px;
+}
+#tractor-state .b-img{
+  width: 180px;
+  height: 100px;
+  box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.356);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#tractor-state .b-img img{
+  border-radius: 10px;
+}
+#tractor-state .b-img:hover{
+  box-shadow: 0px 0px 10px black,
+             0px 0px 10px black;
+  transition: 0.6s;
+}
+#tractor-state .b-img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* MINI TRACTORS */
+
+#mini-tractors{
+
+}
+#mini-tractors .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#mini-tractors .title img{
+  width: 70px;
+}
+#mini-tractors .card-title img{
+  width: 40px;
+}
+#mini-tractors .card-title{
+  color: #006eff;
+  font-weight: bold;
+}
+#mini-tractors .card .card-body h6{
+  font-size: 14px;
+}
+#mini-tractors .card{
+  transition: 0.6s;
+}
+#mini-tractors .card:hover{
+  box-shadow: 0px 0px 10px black,
+             0px 0px 10px black;
+  transition: 0.6s;
+}
+#mini-tractors .card .card-body .price-btn a{
+  background-color: #006400;
+  color: white;
+  padding: 3px 10px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 1px solid #006400;
+  transition: 0.7s;
+}
+#mini-tractors .card .card-body .price-btn a .fa-angle-right{
+  background-color: white;
+  color: #006400;
+  padding: 4px 6px;
+  border-radius: 50%;
+  transition: 0.7s;
+}
+#mini-tractors .card .card-body .price-btn a:hover{
+  background-color:white;
+  color: #006400;
+  text-decoration: none;
+  transition: 0.7s;
+}
+#mini-tractors .card .card-body .price-btn a:hover>i{
+  color:white;
+  background-color: #006400;
+  transition: 0.7s;
+}
+
+/* OLD TRACTOR */
+
+#old-tractors{
+
+}
+#old-tractors .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#old-tractors .title img{
+  width: 70px;
+}
+#old-tractors .card-title img{
+  width: 40px;
+}
+#old-tractors .card-title{
+  color: #006eff;
+  font-weight: bold;
+}
+#old-tractors .card .card-body h6{
+  font-size: 14px;
+}
+#old-tractors .card{
+  transition: 0.6s;
+}
+#old-tractors .card:hover{
+  box-shadow: 0px 0px 10px black,
+             0px 0px 10px black;
+  transition: 0.6s;
+}
+#old-tractors .card .card-body .price-btn a{
+  background-color: #006400;
+  color: white;
+  padding: 3px 10px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 1px solid #006400;
+  transition: 0.7s;
+}
+#old-tractors .card .card-body .price-btn a .fa-angle-right{
+  background-color: white;
+  color: #006400;
+  padding: 4px 6px;
+  border-radius: 50%;
+  transition: 0.7s;
+}
+#old-tractors .card .card-body .price-btn a:hover{
+  background-color:white;
+  color: #006400;
+  text-decoration: none;
+  transition: 0.7s;
+}
+#old-tractors .card .card-body .price-btn a:hover>i{
+  color:white;
+  background-color: #006400;
+  transition: 0.7s;
+}
+
+/* TRACTOR IMPLEMENTS */
+
+#tractor-implements .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#tractor-implements .title img{
+  width: 50px;
+}
+#tractor-implements .b-img{
+  width: 180px;
+  height: 100px;
+  box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.356);
+  transition: 0.6s;
+  border-radius: 20px;
+}
+#tractor-implements .b-img img{
+  border-radius: 10px;
+}
+#tractor-implements .b-img:hover{
+  box-shadow: 0px 0px 10px black,
+             0px 0px 10px black;
+  transition: 0.6s;
+}
+#tractor-implements .b-img img{
+  width: 100%;
+  height: 100%;
+}
+
+/* TRACTOR VIDEOS */
+
+#tractor-videos .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#tractor-videos .title img{
+  width: 70px;
+}
+#tractor-videos .card-title img{
+  width: 40px;
+}
+#tractor-videos .card iframe{
+  width:100%;
+  height: 200px;
+}
+
+ /* ------contact------ */
+#contact .title{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#contact .title img{
+  width: 70px;
+}
+ #contact{
+  background-color: white;
+}
+
+
+#contact .contact-info{
+  font-size: 18px;
+}
+
+.contact-column-1{
+  transition: 0.5s;
+  box-shadow:1px 1px 5px 1px #485664;
+}
+
+.icon-addres{
+ display: flex;
+}
+
+.contact .icon-addres .addres h4{
+  color: #37517e;
+}
+
+.contact .icon-addres .addres p{
+font-size: 15px;
+color: #6182ba;
+}
+
+.contact .fa-location-dot{
+  margin-top: 20px;
+  font-size: 20px;
+  color: #47b2e4;
+  background-color: #f3f5fa;
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+
+.contact .fa-envelope{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #47b2e4;
+  background-color: #f3f5fa;
+  padding: 8px 7px;
+  border-radius: 50%;
+}
+
+.contact .fa-mobile-button{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #47b2e4;
+  background-color: #f3f5fa;
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+
+.contact .fa-location-dot:hover{
+  color: white;
+  background-color: #47b2e4;
+}
+
+.contact .fa-envelope:hover{
+  color: white;
+  background-color: #47b2e4;
+}
+
+.contact .fa-mobile-button:hover{
+  color: white;
+  background-color: #47b2e4;
+}
+
+.map{
+  width: 90%;
+
+}
+
+.column-2{
+  transition: 0.5s;
+  box-shadow:1px 1px 5px 1px #485664;
+}
+
+.contact .btn{
+  border-radius: 30px;
+} 
+#footer-bottam{
+  background-image: linear-gradient(to right,rgb(0, 0, 255),#ff00ff);
+
+}
+.footer-bottom{
+  display: flex;
+  justify-content: space-around;
+}
+.copyright{ 
+
+}
+.credits{
+ color: white;
+}
+
+.footer-bottom .copyright{
+  color: white;
+}
+
+.credits a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.credits a:hover{
+  color: #00bfff;
+  font-weight: bold;
+}
+
+
+/* media */
+
+@media(max-width:430px){
+
+  #tractor-brand .b-img {
+    width: 160px;
+}
+}
+@media(max-width:375px){
+
+  #tractor-brand .b-img {
+    width: 140px;
+}
+}
+@media(max-width:280px){
+
+  #tractor-brand .b-img {
+    width: 100px;
+}
+}
+
+@media(max-width:430px){
+
+  #tractor-implements .b-img {
+    width: 160px;
+}
+}
+@media(max-width:375px){
+
+  #tractor-implements .b-img {
+    width: 140px;
+}
+}
+@media(max-width:280px){
+
+  #tractor-implements .b-img {
+    width: 100px;
+}
+}
+
+@media(max-width:430px){
+
+  #tractor-state .b-img {
+    width: 160px;
+}
+}
+@media(max-width:375px){
+
+  #tractor-state .b-img {
+    width: 140px;
+}
+}
+@media(max-width:280px){
+
+  #tractor-state .b-img {
+    width: 100px;
+}
+}
